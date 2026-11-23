@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sapna Bhayal | Solution Architect, Backend & Data</title>
+<meta name="description" content="Solution Architect with 16+ years building backend systems, APIs and analytics platforms. Moving into data engineering and data science.">
+<style>
+  :root{
+    --bg:#f7f8fb; --surface:#ffffff; --ink:#14192b; --muted:#5b6479; --line:#e4e7ef;
+    --brand:#4f46e5; --brand-ink:#ffffff; --chip:#eef0ff; --chip-ink:#3730a3; --shadow:0 1px 2px rgba(20,25,43,.06),0 8px 24px rgba(20,25,43,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0d1020; --surface:#151a30; --ink:#eef0fa; --muted:#a2aac4; --line:#252b48;
+      --brand:#8b93ff; --brand-ink:#0d1020; --chip:#232a55; --chip-ink:#c7ccff; --shadow:none; }
+  }
+  *{box-sizing:border-box;margin:0}
+  html{scroll-behavior:smooth}
+  body{font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+  a{color:var(--brand);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+  nav strong{font-size:15px}
+  nav ul{display:flex;gap:20px;list-style:none;padding:0;font-size:14px}
+  nav ul a{color:var(--muted)}
+  nav ul a:hover{color:var(--ink);text-decoration:none}
+  .hero{padding:72px 0 48px}
+  .eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--brand);margin-bottom:14px}
+  h1{font-size:clamp(34px,6vw,54px);line-height:1.1;letter-spacing:-.02em;margin-bottom:16px}
+  .lead{font-size:clamp(17px,2.2vw,20px);color:var(--muted);max-width:640px}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:10px;font-weight:600;font-size:15px;border:1px solid var(--line);color:var(--ink);background:var(--surface)}
+  .btn:hover{text-decoration:none;border-color:var(--brand)}
+  .btn.primary{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:40px}
+  .stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:var(--shadow)}
+  .stat b{display:block;font-size:28px;letter-spacing:-.02em}
+  .stat span{font-size:14px;color:var(--muted)}
+  section{padding:48px 0}
+  h2{font-size:26px;letter-spacing:-.01em;margin-bottom:22px}
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+  .card h3{font-size:15px;margin-bottom:12px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:var(--chip);color:var(--chip-ink);font-size:13px;font-weight:500;padding:4px 11px;border-radius:999px}
+  .timeline{border-left:2px solid var(--line);padding-left:24px;display:grid;gap:28px}
+  .job{position:relative}
+  .job::before{content:"";position:absolute;left:-31px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px var(--bg)}
+  .job h3{font-size:18px}
+  .job .meta{font-size:14px;color:var(--muted);margin-bottom:8px}
+  .job ul{padding-left:18px;color:var(--muted)}
+  .job li{margin:4px 0}
+  .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+  .project{display:flex;flex-direction:column;gap:12px}
+  .project h3{font-size:18px}
+  .project p{color:var(--muted);font-size:15px}
+  .project .tag{font-size:13px;font-weight:600;color:var(--brand)}
+  .metrics{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px}
+  .metrics b{font-weight:700}
+  .project .more{margin-top:auto;font-weight:600;font-size:15px}
+  .edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .edu p{color:var(--muted);font-size:15px}
+  footer{padding:48px 0 64px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center}
+  footer .links{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;margin-bottom:14px;font-size:15px}
+  @media(max-width:560px){nav ul{gap:14px}.hero{padding-top:48px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <strong>Sapna Bhayal</strong>
+    <ul>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Solution Architect · Backend · Data &amp; Analytics</span>
+    <h1>I build backend systems and data pipelines that scale.</h1>
+    <p class="lead">16+ years designing APIs and analytics platforms for sports betting and fantasy sports, leading teams of up to 8+ engineers. Now growing into data engineering and data science.</p>
+    <div class="cta">
+      <a class="btn primary" href="Sapna_Bhayal_Resume.pdf">Download resume</a>
+      <a class="btn" href="https://github.com/sarahclarkbetsperts">GitHub</a>
+      <a class="btn" href="LINKEDIN-URL-HERE">LinkedIn</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>16+</b><span>years in software</span></div>
+      <div class="stat"><b>8+</b><span>engineers led</span></div>
+      <div class="stat"><b>1.85M</b><span>records analysed in PySpark</span></div>
+      <div class="stat"><b>175K</b><span>orders modelled</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card"><h3>Backend &amp; architecture</h3><div class="chips">
+        <span class="chip">Solution architecture</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">PHP</span><span class="chip">CodeIgniter</span><span class="chip">Laravel</span><span class="chip">REST APIs</span><span class="chip">Microservices</span></div></div>
+      <div class="card"><h3>Data &amp; analytics</h3><div class="chips">
+        <span class="chip">Python</span><span class="chip">PySpark</span><span class="chip">pandas</span><span class="chip">scikit-learn</span><span class="chip">SQL</span><span class="chip">Data pipelines</span><span class="chip">Forecasting</span></div></div>
+      <div class="card"><h3>Databases</h3><div class="chips">
+        <span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">Firebase</span></div></div>
+      <div class="card"><h3>Cloud &amp; DevOps</h3><div class="chips">
+        <span class="chip">AWS (EC2, RDS)</span><span class="chip">Google Cloud Functions</span><span class="chip">Docker</span><span class="chip">Jenkins</span><span class="chip">CI/CD</span></div></div>
+      <div class="card"><h3>Frontend</h3><div class="chips">
+        <span class="chip">ReactJS</span><span class="chip">AngularJS</span><span class="chip">Vue.js</span></div></div>
+      <div class="card"><h3>Leadership</h3><div class="chips">
+        <span class="chip">Team leadership</span><span class="chip">Mentoring</span><span class="chip">Agile / Scrum</span><span class="chip">Requirements to architecture</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="job">
+        <h3>Lead Architect · Xpert Sport Technologies</h3>
+        <div class="meta">Betsperts Media &amp; Technology Group · Oct 2021 to present</div>
+        <ul>
+          <li>Architect a golf tournament platform with live leaderboards, course metrics and player statistics APIs.</li>
+          <li>Built Python pipelines that ingest third-party sports data through async APIs and post automated reports to Slack.</li>
+          <li>Built revenue and LTV forecasting dashboards and an admin panel on Node.js, PostgreSQL and Google Cloud Functions.</li>
+          <li>Lead 8+ developers and run AWS infrastructure, CI/CD and monitoring.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Senior Backend Developer / Team Lead · Vinfotech</h3>
+        <div class="meta">Indore · Apr 2017 to Aug 2021</div>
+        <ul>
+          <li>Led a team of 6 developers building PHP, Node.js, MySQL and MongoDB backends and REST APIs.</li>
+          <li>Owned production deployments, release cycles and AWS support.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Senior Software Developer · Cibirix</h3>
+        <div class="meta">Indore · Mar 2016 to Mar 2017</div>
+        <ul>
+          <li>Built Laravel and MySQL features and APIs for large-scale applications; optimised database queries.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Software Developer · Walkover</h3>
+        <div class="meta">Indore · Oct 2010 to Feb 2016</div>
+        <ul>
+          <li>Led 8 developers on high-traffic, real-time PHP, MySQL and MongoDB services.</li>
+          <li>Cut database query time by up to 30% and introduced Jenkins-based containerised deployments.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p style="color:var(--muted);margin:-10px 0 22px">My professional work is private, so these are public projects from my MS in Applied Data Science.</p>
+    <div class="projects">
+      <article class="card project">
+        <span class="tag">PySpark · K-Means · EDA</span>
+        <h3>Amazon Customer Behavior Analysis</h3>
+        <p>Cleaned and analysed 1.85M purchase records, segmented customers with RFM and K-Means, and turned the findings into promotion, retention and inventory recommendations.</p>
+        <div class="metrics"><span><b>4</b> customer segments</span><span><b>21.6%</b> of customers drive most revenue</span></div>
+        <a class="more" href="https://github.com/sarahclarkbetsperts/amazon-customer-behavior-pyspark">View on GitHub →</a>
+      </article>
+      <article class="card project">
+        <span class="tag">scikit-learn · Regression · RFE</span>
+        <h3>Delivery Time Prediction</h3>
+        <p>Linear regression with feature selection on 175K delivery orders. Market, network load and distance emerged as the main drivers of delivery time.</p>
+        <div class="metrics"><span><b>R² 0.58</b></span><span><b>±5.9 min</b> RMSE</span><span><b>8</b> features</span></div>
+        <a class="more" href="https://github.com/sarahclarkbetsperts/porter-delivery-time-prediction">View on GitHub →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Education</h2>
+    <div class="edu">
+      <div class="card"><h3>MS in Applied Data Science</h3><p>UpGrad × IIIT Bangalore · in progress</p></div>
+      <div class="card"><h3>B.E. Information Technology</h3><p>Shri Vaishnav Institute of Technology and Science, Indore · 2009</p></div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="links">
+      <a href="mailto:sapna.lachheta01@gmail.com">sapna.lachheta01@gmail.com</a>
+      <a href="https://github.com/sarahclarkbetsperts">GitHub</a>
+      <a href="LINKEDIN-URL-HERE">LinkedIn</a>
+      <a href="Sapna_Bhayal_Resume.pdf">Resume (PDF)</a>
+    </div>
+    Open to roles combining solution architecture with data engineering and analytics · Indore, India
+  </div>
+</footer>
+
+</body>
+</html>
