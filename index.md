@@ -39,8 +39,8 @@ Most of my professional work is in private repositories. Public examples and dem
 
 ## Let's connect
 
-- LinkedIn: https://www.linkedin.com/in/sapna-lachheta-bhayal-3694aa35/
+- [LinkedIn](https://www.linkedin.com/in/sapna-lachheta-bhayal-3694aa35)
 - Email: sapna.lachheta01@gmail.com
-- Resume: [link to your PDF or GitHub Pages site]
+- [Resume](https://sarahclarkbetsperts.github.io/)
 
 I'm open to enterprise roles that combine solution architecture with data analytics and engineering.
