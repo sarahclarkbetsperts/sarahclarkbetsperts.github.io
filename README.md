@@ -1,1 +1,1 @@
-# sarahclarkbetsperts.github.io.
+# sarahclarkbetsperts.github.io
